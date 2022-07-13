@@ -25,7 +25,11 @@
   box-sizing: border-box;
 }
 body {
-  background: hsl(240, 30%, 10%);
+  /* background: hsl(240, 30%, 10%); */
+  background: linear-gradient(
+    hsl(240, 30%, 10%),
+    hsla(153, 47%, 49%, 0.664) 350%
+  );
 }
 #nav {
   padding: 30px;
@@ -44,6 +48,6 @@ body {
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: hsl(153, 47%, 49%);
 }
 </style>

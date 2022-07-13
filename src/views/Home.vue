@@ -19,7 +19,6 @@
         :tasks="tasks"
       />
     </div>
-    <!-- <SecondPage /> -->
   </div>
 </template>
 
@@ -94,7 +93,6 @@ export default {
 body {
   font-family: sans-serif;
 }
-
 .container {
   color: white;
   /* background: linear-gradient(#c8d8e8, #b6d6a2); */
@@ -119,7 +117,9 @@ body {
   text-decoration: none;
   font-size: 15px;
   font-family: sans-serif;
+  transition: all 500ms ease-in-out;
 }
+
 .btn:focus {
   outline: none;
 }

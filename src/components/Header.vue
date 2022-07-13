@@ -2,6 +2,7 @@
   <header>
     <h1>{{ title }}</h1>
     <Button
+      class="effect"
       @btn-click="$emit('toggle-add-task')"
       :text="showAddTask ? 'Close' : 'Add Task'"
       :color="showAddTask ? '#df211a9f' : '#42b9839f'"
@@ -34,4 +35,7 @@ header {
   justify-content: space-between;
   margin-bottom: 20px;
 }
+/* .effect {
+  transition: all 500ms ease-in-out;
+} */
 </style>
