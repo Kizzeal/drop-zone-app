@@ -1,8 +1,4 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
   <router-view />
 </template>
 
@@ -21,33 +17,14 @@
 
 * {
   margin: 0;
-  left: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
   /* background: hsl(240, 30%, 10%); */
   background: linear-gradient(
     hsl(240, 30%, 10%),
-    hsla(153, 47%, 49%, 0.664) 350%
+    hsla(180, 2%, 88%, 0.664) 350%
   );
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: whitesmoke;
-  /* color: #2c3e50; */
-  text-decoration: none;
-  transition: 0.5s;
-}
-
-#nav a:hover {
-  color: aqua;
-}
-
-#nav a.router-link-exact-active {
-  color: hsl(153, 47%, 49%);
 }
 </style>
